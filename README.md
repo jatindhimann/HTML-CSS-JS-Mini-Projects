@@ -1,10 +1,21 @@
 # Table of Contents
 
-| S.No. | Project       | Link              |
-|-------|---------------|-------------------|
-| 1.    | NavBar Toggle   | [Go to Project](#Navbar-Toggle)   |
-|     |   |    |
-|    |  |  |
+<table>
+    <thead>
+        <tr>
+            <th>S.No.</th>
+            <th>Project</th>
+            <th>Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>NavBar Toggle</td>
+            <td><a href="#Navbar-Toggle">Go to Project</a></td>
+        </tr>
+    </tbody>
+</table>
 
 ## Navbar Toggle
 
