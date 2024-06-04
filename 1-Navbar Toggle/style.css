@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  background-color: rgb(242, 244, 245);
+}
+nav {
+  background-color: white;
+}
+.social-icons {
+  display: none;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+.logo {
+  font-size: 1.9rem;
+  letter-spacing: 6px;
+  color: rgb(81, 81, 122);
+  text-shadow: 1.5px 1.5px 2.5px black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo span {
+  color: rgb(57, 181, 223);
+}
+.nav-toggle {
+  background: transparent;
+  font-size: 1.4rem;
+  border-color: transparent;
+  cursor: pointer;
+}
+.nav-toggle i:hover {
+  transition: 0.3s all linear;
+}
+.nav-toggle i:hover {
+  transform: rotate(90deg);
+  color: rgb(13, 136, 177);
+}
+.options a {
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  color: rgb(29, 45, 50);
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: 0.3s all linear;
+}
+.options a:hover {
+  background: rgb(57, 181, 223);
+  color: rgb(29, 45, 50);
+  padding-left: 1.5rem;
+}
+.options {
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s all linear;
+}
+.show-links {
+  height: 150px;
+}
+@media screen and (min-width: 800px) {
+  .nav-toggle {
+    display: none;
+  }
+  .navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 145px;
+    padding-right: 155px;
+    height: 75px;
+    border-bottom: 0.1px outset rgb(255, 255, 255);
+  }
+  .options {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .options a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    height: auto;
+    color: black;
+    transition: 0.3s all linear;
+  }
+  .options a:hover {
+    color: rgb(57, 181, 223);
+    background: transparent;
+  }
+  .social-icons {
+    display: flex;
+    font-size: 1.2rem;
+    width: 200px;
+    justify-content: space-evenly;
+  }
+  .social-icons a {
+    transition: 0.3s all linear;
+  }
+  .social-icons a:hover {
+    padding-left: 1.1rem;
+    color: rgb(57, 181, 223);
+  }
+}
