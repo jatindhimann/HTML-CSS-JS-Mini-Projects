@@ -87,6 +87,7 @@ nav {
   .options {
     display: flex;
     width: 400px;
+    height: auto;
     justify-content: space-between;
     align-items: center;
   }
