@@ -12,10 +12,3 @@ This project showcases a responsive navigation bar with a toggle feature for sma
 ### Deployment
 - Deployment Link: [https://navbar-ttoggle.netlify.app/](https://navbar-ttoggle.netlify.app/)
 ### Video 
-
-https://github.com/jatinn27/HTML-CSS-JS-PROJECTS/assets/122196729/417fb78e-c72f-4a3c-b762-18ca07be128c
-
-
-https://github.com/jatinn27/HTML-CSS-JS-PROJECTS/assets/122196729/e623a5e6-c9c1-4861-a15f-2d27e26d4298
-
-
