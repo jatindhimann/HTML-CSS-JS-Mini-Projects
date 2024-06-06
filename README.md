@@ -28,7 +28,8 @@ This project showcases a responsive navigation bar with a toggle feature for sma
 - Toggle Option for small Screen size is the highlight!!!!!!!!!!!!!!!!!
 ### Deployment
 - Deployment Link: [https://navbar-ttoggle.netlify.app/](https://navbar-ttoggle.netlify.app/)
-<img width="479" alt="Screenshot 2024-06-05 100938" src="https://github.com/jatinn27/HTML-CSS-JS-PROJECTS/assets/122196729/c95b48a6-36f9-43ca-9546-2febac94a33d">
+<img width="479" alt="Screenshot 2024-06-05 100938" src="https://github.com/jatinn27/HTML-CSS-JS-PROJECTS/assets/122196729/d517544b-4b85-41c4-877d-5ff2965693d2">
+
 
 ## Sidebar Toggle
 
