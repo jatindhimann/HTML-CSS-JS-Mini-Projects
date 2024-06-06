@@ -35,5 +35,4 @@ This project showcases a responsive navigation bar with a toggle feature for sma
 This project implements a sidebar that can be toggled using a button and closed with an 'X' mark. The sidebar includes navigation links and social media icons, with animations for a smooth user experience.
 ### Deployment
 - Deployment Link: [https://side-bar-toggle.netlify.app/](https://side-bar-toggle.netlify.app/)
-<img width="479" alt="Screenshot 2024-06-05 100938" src="https://github.com/jatinn27/HTML-CSS-JS-PROJECTS/assets/122196729/c95b48a6-36f9-43ca-9546-2febac94a33d">
 
