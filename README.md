@@ -24,6 +24,11 @@
             <td>Frequently Asked Questions</td>
             <td><a href="#Frequently-Asked-Questions">Go to Project</a></td>
         </tr>
+        <tr>
+            <td>4.</td>
+            <td>Filter Menu</td>
+            <td><a href="#Filter-Menu">Go to Project</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -47,4 +52,11 @@ This project implements a sidebar that can be toggled using a button and closed 
 This project is a simple FAQ (Frequently Asked Questions) page built using HTML, CSS, and JavaScript. The page includes questions that can be expanded or collapsed to show or hide their answers. The design is responsive and aesthetically pleasing, making use of external fonts and icons.
 ### Deployment
 - Deployment Link: [https://faqqs.netlify.app/](https://faqqs.netlify.app/)
+
+## Filter Menu 
+
+This is a simple website displaying a menu with various food items categorized into breakfast, lunch, shakes, and dinner. Users can filter the menu items based on these categories using the buttons provided.
+JavaScript enables users to filter menu items based on categories such as breakfast, lunch, shakes, and dinner. It adds event listeners to category buttons, allowing users to select a category. When a category button is clicked, JavaScript filters the menu items accordingly and updates the displayed items on the webpage
+### Deployment
+- Deployment Link: [https://hotel-menuu.netlify.app/](https://hotel-menuu.netlify.app/)
 
