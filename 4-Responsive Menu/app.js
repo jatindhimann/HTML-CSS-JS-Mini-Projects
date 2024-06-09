@@ -84,7 +84,7 @@ const menu = [
 const menumain = document.querySelector(".menu-main");
 
 window.addEventListener("DOMContentLoaded", function () {
-    displayMenuItems(menu);
+  displayMenuItems(menu);
 });
 
 function displayMenuItems(menuItems) {
@@ -112,24 +112,24 @@ function displayMenuItems(menuItems) {
   menumain.innerHTML = displayMenu;
 }
 
-const btns = document.querySelectorAll('.btns');
+const btns = document.querySelectorAll(".btns");
 
-btns.forEach(function(btn){
-    btn.addEventListener('click',function(e){
-        const category = e.currentTarget.dataset.id;
-        
-        // console.log(category);
-        const menuCategory = menu.filter(function(menuItem){
-            if(menuItem.category === category){
-                // console.log(menuItem);
-                return menuItem;
-            }
-        });
+btns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
+    const category = e.currentTarget.dataset.id;
 
-        if(category === 'all'){
-            displayMenuItems(menu);
-        }else{
-            displayMenuItems(menuCategory);
-        }
+    // console.log(category);
+    const menuCategory = menu.filter(function (menuItem) {
+      if (menuItem.category === category) {
+        // console.log(menuItem);
+        return menuItem;
+      }
     });
+
+    if (category === "all") {
+      displayMenuItems(menu);
+    } else {
+      displayMenuItems(menuCategory);
+    }
+  });
 });
