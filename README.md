@@ -29,6 +29,11 @@
             <td>Filter Menu</td>
             <td><a href="#Filter-Menu">Go to Project</a></td>
         </tr>
+        <tr>
+            <td>5.</td>
+            <td>Numbers Project</td>
+            <td><a href="#Numbers-Project">Go to Project</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -59,4 +64,11 @@ This is a simple website displaying a menu with various food items categorized i
 JavaScript enables users to filter menu items based on categories such as breakfast, lunch, shakes, and dinner. It adds event listeners to category buttons, allowing users to select a category. When a category button is clicked, JavaScript filters the menu items accordingly and updates the displayed items on the webpage
 ### Deployment
 - Deployment Link: [https://hotel-menuu.netlify.app/](https://hotel-menuu.netlify.app/)
+
+## Numbers Project
+
+This project is a simple webpage that displays numbers representing different statistics, such as succeeded projects, working hours spent, and happy clients. The numbers count up to their respective values when the page loads.
+
+### Deployment
+- Deployment Link: [https://numberrs.netlify.app/](https://numberrs.netlify.app/)
 
