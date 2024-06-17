@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: rgb(243, 243, 243);;
+}
+
+section{
+    width: 100%;
+    background-color: white;
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 30px;
+    border-radius: 4px;
+}
+.text{
+    font-size: 1.35rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-wrap: nowrap; */
+}
+.data{
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    /* text-wrap: nowrap; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects{
+    border-bottom: 4px solid rgb(224, 162, 16);
+}
+.Hours{
+    border-bottom: 4px solid rgb(75, 224, 16);
+}
+.Clients{
+    border-bottom: 4px solid rgb(104, 5, 225);
+}
+
+
+#Numbers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 65px 10px;
+    padding: 15px;
+}
+
+@media screen and (min-width: 1050px){
+    #Numbers{
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 100px;
+        margin-top: 60px;
+        height: 100%;
+    }
+}
