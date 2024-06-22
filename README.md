@@ -34,6 +34,11 @@
             <td>Numbers Project</td>
             <td><a href="#Numbers-Project">Go to Project</a></td>
         </tr>
+        <tr>
+            <td>6.</td>
+            <td>Cricket Commentary</td>
+            <td><a href="#Cricket-Commentary">Go to Project</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -71,4 +76,18 @@ This project is a simple webpage that displays numbers representing different st
 
 ### Deployment
 - Deployment Link: [https://numberrs.netlify.app/](https://numberrs.netlify.app/)
+
+## Cricket Commentary
+
+Welcome to the Cricket Commentary Simulator! This  application provides a cricket commentary experience where users can interact with different types of cricket shots and receive corresponding commentary snippets.Lot of enhancements comming..
+
+### Features
+- Interactive Interface: Clickable buttons representing cricket shots (0, 1, 2, 3, 4, 6).
+- Dynamic Commentary: Displays random commentary snippets based on the shot selected.
+- Audio Feedback: Plays audio effects associated with each shot.
+- Over and Ball Tracking: Tracks and displays current over and ball count.
+- Error Handling: Alerts users when the maximum overs limit is reached.
+
+### Deployment
+- Deployment Link: [https://cricket-commentary.netlify.app/](https://cricket-commentary.netlify.app/)
 
