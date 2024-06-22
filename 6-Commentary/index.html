@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Commentary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="total-overs">
+        <div>
+            <p>Overs: <span class="curr-over">0</span><span id="total">(2)</span></p>
+        </div>
+        <div class="btn-container">          
+          <button class="cbtn inc">+</button>
+        </div>
+    </div>
+    <div class="error"></div>
+    <div class="btns">
+      <div class="btn" data-key="74" data-id="zero"><button>0</button></div>
+      <div class="btn" data-key="75" data-id="single"><button>1</button></div>
+      <div class="btn" data-key="76" data-id="double"><button>2</button></div>
+      <div class="btn" data-key="77" data-id="three"><button>3</button></div>
+      <div class="btn" data-key="78" data-id="four"><button>4</button></div>
+      <div class="btn" data-key="79" data-id="six"><button>6</button></div>
+    </div>
+    <div class="commentary">
+        
+      </div>
+    </div>
+    <audio data-key="75" src="audios\audios_kick.wav"></audio>
+    <audio data-key="78" src="audios\audios_crashcymbal.wav"></audio>
+    <audio data-key="76" src="audios\audios_lowtom.wav"></audio>
+    <audio data-key="77" src="audios\audios_snare.wav"></audio>
+    <audio data-key="74" src="audios\audios_midtom.wav"></audio>
+    <audio data-key="79" src="audios\audios_ridecymbal.wav"></audio>
+    <script src="app.js"></script>
+  </body>
+</html>
