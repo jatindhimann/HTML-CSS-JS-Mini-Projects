@@ -39,6 +39,11 @@
             <td>Cricket Commentary</td>
             <td><a href="#Cricket-Commentary">Go to Project</a></td>
         </tr>
+        <tr>
+            <td>7.</td>
+            <td>Dark Mode</td>
+            <td><a href="#Dark-Mode">Go to Project</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -90,4 +95,18 @@ Welcome to the Cricket Commentary Simulator! This  application provides a cricke
 
 ### Deployment
 - Deployment Link: [https://cricket-commentary.netlify.app/](https://cricket-commentary.netlify.app/)
+
+## Dark Mode
+
+This project demonstrates how to implement a dark mode toggle for a webpage using HTML, CSS, and JavaScript. The webpage displays a list of articles and includes a button to toggle between light and dark themes.
+
+### Features
+- Interactive Interface: Clickable buttons representing cricket shots (0, 1, 2, 3, 4, 6).
+- Dynamic Commentary: Displays random commentary snippets based on the shot selected.
+- Audio Feedback: Plays audio effects associated with each shot.
+- Over and Ball Tracking: Tracks and displays current over and ball count.
+- Error Handling: Alerts users when the maximum overs limit is reached.
+
+### Deployment
+- Deployment Link: [https://dark-modde.netlify.app/](https://dark-modde.netlify.app/)
 
