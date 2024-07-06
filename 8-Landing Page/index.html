@@ -9,7 +9,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="images\favicon.png" type="image/x-icon">
+    <link rel="icon" href="images\favicon.png" type="image/x-icon" />
   </head>
   <body>
     <nav>
@@ -22,43 +22,112 @@
 
       <div>
         <ul class="options">
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Reviews</a>
-          </li>
-          <li>
-            <a href="#">Doctors</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <section class="hero-section">
-      <div class="heart-section">
-        <span><i class="fa-solid fa-heart"></i></span>
-        <span id="text">Health comes first</span>
-      </div>
-      <p class="head">Find your Doctor and make an Appointments</p>
-      <p class="text">
-        Talk to online doctors and get medical advice, online prescriptions,
-        refills and medical notes within minutes. On-demand healthcare services
-        at your fingertips.
-      </p>
-      <button class="btn">
-        <i class="fa-solid fa-calendar-check"></i>Book Appointment
-      </button>
-    </section>
+    <div class="hero">
+      <section class="hero-section">
+        <div class="heart-section">
+          <span><i class="fa-solid fa-heart"></i></span>
+          <span id="text">Health comes first</span>
+        </div>
+        <p class="head">Find your Doctor and make an Appointments</p>
+        <p class="text">
+          Talk to online doctors and get medical advice, online prescriptions,
+          refills and medical notes within minutes. On-demand healthcare
+          services at your fingertips.
+        </p>
+        <button class="btn">
+          <i class="fa-solid fa-calendar-check"></i>Book Appointment
+        </button>
+
+        <div class="stats">
+          <section>
+            <div><span class="data" data-val="145" data-id="1">0</span></div>
+            <div class="num-text">Receive Patients</div>
+          </section>
+          <section>
+            <div><span class="data" data-val="50" data-id="2">0</span></div>
+            <div class="num-text">Expert Doctors</div>
+          </section>
+          <section>
+            <div><span class="data" data-val="10" data-id="3">0</span></div>
+            <div class="num-text">Years of Experience</div>
+          </section>
+        </div>
+      </section>
+      <img src="images/doctor-picture.png" alt="" />
+    </div>
+
+    <div>
+      <section class="what-we-do">
+        <div class="header">
+          <div class="head">
+            <h1>What We Do</h1>
+          </div>
+          <div>
+            <p>
+              We bring healthcare to your convenience, offering a comprehensive
+              range of on-demand medical services tailored to your needs. Our
+              platform allows you to connect with experienced online doctors who
+              provide expert medical advice, issue online prescriptions, and
+              offer quick refills whenever you require them.
+            </p>
+          </div>
+        </div>
+
+        <div class="cards">
+          <section class="card">
+            <h1>Emergency Care</h1>
+            <p>
+              Our Emergency Care service is designed to be your reliable support
+              in critical situations. Whether it's a sudden illness, injury, or
+              any medical concern that requires immediate attention, our team of
+              dedicated healthcare professionals is available 24/7 to provide
+              prompt and efficient care.
+            </p>
+          </section>
+          <section class="card">
+            <h1>Heart Disease</h1>
+            <p>
+              Our team of experienced cardiologists and medical experts use
+              state-of-the-art technology to assess your cardiovascular health
+              and design personalized treatment plans. From comprehensive
+              screenings to advanced interventions, we are committed to helping
+              you maintain a healthy heart and lead a fulfilling life.
+            </p>
+          </section>
+          <section class="card">
+            <h1>Dental Care</h1>
+            <p>
+              Smile with confidence as our Dental Care services cater to all
+              your oral health needs. Our skilled dentists provide a wide range
+              of treatments, from routine check-ups and cleanings to cosmetic
+              procedures and restorative treatments.
+            </p>
+          </section>
+          <section class="card">
+            <h1>Lung Disease</h1>
+            <p>
+              Our team of experienced pulmonologists and medical professionals
+              use cutting-edge technology to evaluate your respiratory health
+              and develop individualized treatment plans. From thorough
+              diagnostic tests to advanced therapeutic procedures, we are
+              dedicated to ensuring your lungs function optimally and helping
+              you live a healthy, active life.
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>

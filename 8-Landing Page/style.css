@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 html {
-  font-size: 15px;
+  font-size:18px;
 }
 
 a {
@@ -19,7 +20,6 @@ body {
   background-color: aliceblue;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.3;
 }
 nav {
   background-color: white;
@@ -29,16 +29,17 @@ nav {
   font-size: 2rem;
   justify-content: space-between;
   align-items: center;
-  padding: 1.7rem 2.2rem;
+  padding: 1.1rem 2.2rem;
   /* border: 2px solid black; */
 }
 
 nav .logo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: 2.5px;
   font-weight: bold;
   color: #1a8efd;
   cursor: pointer;
+  min-width: 185px;
 }
 
 nav span {
@@ -52,7 +53,7 @@ nav .nav-toggle {
 
 nav .nav-toggle:hover {
   transform: rotate(90deg);
-  color:#1a8efd ;
+  color: #1a8efd;
 }
 
 .options a {
@@ -77,19 +78,21 @@ nav .nav-toggle:hover {
 }
 
 .show-links {
-  height: 350px;
+  height: 420px;
 }
 
 /* **********************************************************************/
 
 /* hero-section */
 .hero-section {
-  padding: 2rem 2.5rem;
+  padding: 2.5rem 3rem;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
+.hero img{
+  display: none;
+}
 /* ***************heart-section*************** */
 .hero-section .heart-section {
   display: flex;
@@ -100,7 +103,7 @@ nav .nav-toggle:hover {
   font-size: 1.6rem;
   letter-spacing: 1px;
   font-weight: bold;
-  max-width: 265px;
+  max-width: 320px;
 }
 
 .hero-section #text {
@@ -117,19 +120,19 @@ nav .nav-toggle:hover {
   font-size: 2.4rem;
   font-weight: 600;
   max-width: 700px;
-  /* border: 2px solid black; */
 }
 
 .hero-section .text {
   font-size: 1.3rem;
   line-height: 2rem;
   max-width: 600px;
-  margin: 15px 0;
+  margin: 18px 0;
+  line-height: 1.5;
 }
 
 .hero-section .btn {
   display: flex;
-  max-width: 220px;
+  max-width: 290px;
   justify-content: space-evenly;
   background: transparent;
   border: 1px solid #1a8efd;
@@ -140,9 +143,141 @@ nav .nav-toggle:hover {
   color: white;
   cursor: pointer;
   transition: all 0.3s linear;
+  margin: 5px 0;
 }
 
 .hero-section .btn:hover {
   background: white;
   color: #1a8efd;
+}
+
+.stats {
+  display: flex;
+  max-width: 700px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+.stats section {
+  text-align: center;
+  max-width: 150px;
+  text-align: center;
+  text-wrap: wrap;
+  font-size: 1.5rem;
+  color: rgba(44, 40, 40, 0.801);
+  /* border: 2px solid black; */
+}
+
+.stats .num-text {
+  margin-top: 5px;
+}
+
+.stats .data {
+  font-size: 1.8rem;
+  color: #1a8efd;
+  font-weight: bold;
+}
+
+/**************************** hero-section ends******************************* */
+
+.what-we-do {
+  background-color: white;
+  padding: 2rem 2.5rem;
+  text-align: center;
+}
+
+.what-we-do h1 {
+  font-size: 2rem;
+}
+
+.what-we-do .head{
+  padding-bottom: 10px;
+   border-bottom: 4px solid rgb(42, 120, 165);
+   border-radius: 4px;
+}
+.underline {
+  background-color: brown;
+  height: 4.5px;
+  width: 180px;
+  border-radius: 10px;
+  margin: 15px;
+  margin-left: 25%;
+}
+.what-we-do .header p {
+  font-size: 1.3rem;
+  color: rgba(44, 40, 40, 0.801);
+  margin: 20px;
+}
+
+.what-we-do .cards p {
+  font-size: 1.3rem;
+  color: rgba(44, 40, 40, 0.801);
+  margin: 20px;
+}
+
+.cards {
+  /* border: 2px solid black; */
+  margin-top: 60px;
+}
+
+.card {
+  border: 2px solid rgb(153, 148, 148);
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+}
+
+@media screen and (min-width: 1100px) {
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 200px;
+  }
+  nav .nav-toggle{
+    display: none;
+  }
+  .options{
+    height: 100px;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .options a{
+    font-size: 1.1rem;
+    padding: 0.8rem 1.8rem;
+  }
+  .options a:hover{
+    color:#1a8efd;
+    background-color: white;
+    border-bottom: 4px solid #1a8efd;
+  }
+  .options li{
+    /* border: 2px solid black; */
+    max-width: 200px;
+    
+  }
+
+  .hero img{
+    display: block;
+    max-width: 650px;
+    padding: 80px;
+    height: 680px;
+  }
+
+  .hero{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 786px) {
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+  }
 }
