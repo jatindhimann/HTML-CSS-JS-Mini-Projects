@@ -49,6 +49,11 @@
             <td>Landing Page</td>
             <td><a href="#Landing-Page">Go to Project</a></td>
         </tr>
+        <tr>
+            <td>9.</td>
+            <td>Jokes</td>
+            <td><a href="#Jokes">Go to Project</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -111,3 +116,7 @@ This project demonstrates how to implement a dark mode toggle for a webpage usin
 ## Landing Page
 
 - Deployment Link: [https://landinnggpagee.netlify.app/](https://landinnggpagee.netlify.app/)
+
+
+## Jokes
+- Deployment Link: [https://spin-jokes.netlify.app/](https://spin-jokes.netlify.app/)
