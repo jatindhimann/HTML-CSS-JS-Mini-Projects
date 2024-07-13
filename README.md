@@ -44,6 +44,11 @@
             <td>Dark Mode</td>
             <td><a href="#Dark-Mode">Go to Project</a></td>
         </tr>
+        <tr>
+            <td>8.</td>
+            <td>Landing Page</td>
+            <td><a href="#Landing-Page">Go to Project</a></td>
+        </tr>
     </tbody>
 </table>
 
@@ -103,3 +108,6 @@ This project demonstrates how to implement a dark mode toggle for a webpage usin
 ### Deployment
 - Deployment Link: [https://dark-modde.netlify.app/](https://dark-modde.netlify.app/)
 
+## Landing Page
+
+- Deployment Link: [https://landinnggpagee.netlify.app/](https://landinnggpagee.netlify.app/)
