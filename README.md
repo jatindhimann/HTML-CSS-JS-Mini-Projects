@@ -12,7 +12,7 @@
         <tr>
             <td>1.</td>
             <td>NavBar Toggle</td>
-            <td>[https://navbar-ttoggle.netlify.app/](https://navbar-ttoggle.netlify.app/)</td>
+            <td>https://navbar-ttoggle.netlify.app/</td>
         </tr>
         <tr>
             <td>2.</td>
